@@ -4,6 +4,8 @@
 ###### The attached CreateTPIdataframe.R file allows a user to take any Opta F24 event file and create the proposed network theory based metric of Tuned Passing Influence. This code utilizes https://github.com/FCrSTATS/fc.rstats package to parse the F24 event data.
 # PassingMapViz.R
 ###### The attached PassingMapViz.R creates a passing network that takes into account the nuances of the TPI passing rating. The passing network visual built from f24-98-2012-429860-eventdetails.xml shows each Colorado Rapids player's average passing position throughout the game. As players complete passes higher up the field they are awarded a higher TPI tuning measure (𝛼). The shading on the connections between players represents the 𝛼 given to that player's base passing score. For a more detailed account of the TPI rating see **ThesisFinal.pdf** The visual output for the aforementioned F24 file is attached under PassingMapViz.png
+
+![alt text](https://github.com/Daniel-Krueger-1/footy/blob/master/PassingMapViz.png?raw=true)
 # Degree Centrality 
 ## 𝑇𝑃𝐼 = 𝐷𝐶𝛼(𝑖) = 𝑘𝑖 (𝑠𝑖/𝑘𝑖)^𝛼
 
